@@ -1,63 +1,51 @@
-# 📦 Dashboard Operacional de E-commerce — Grendene
+# 📦 Dashboard Operacional de E-commerce — Grendene S/A
 
-> **Dashboard desenvolvido como projeto de portfólio que resultou em contratação pela Grendene.**  
-> Dados fictícios utilizados para fins de demonstração.
+> Dashboard Power BI desenvolvido para acompanhamento operacional do e-commerce da Grendene S/A, com visibilidade em tempo real sobre pedidos, logística, frete e SLA.
 
-**Ferramentas:** Power BI · Figma · Excel  
-**Período:** Jul–Out/2025  
-**Autora:** Crislaine Gomes
+> ⚡ **Este projeto resultou diretamente na contratação pela Grendene S/A** como Assistente de Logística — E-commerce.
 
 ---
 
-## 📊 Sobre o Projeto
+## 📸 Preview
 
-Dashboard operacional completo para monitoramento de e-commerce, cobrindo pedidos, logística, frete e SLA de entrega. Desenvolvido com identidade visual da marca e foco em tomada de decisão estratégica.
-
-O projeto foi apresentado durante processo seletivo e resultou em contratação — demonstrando impacto real de análise de dados aplicada ao negócio.
+> *(Adicione aqui prints das 3 páginas do dashboard)*
 
 ---
 
-## 📋 Páginas do Dashboard
+## 🎯 Objetivo
 
-### 1. Visão Geral Operacional
-- Total de pedidos, entregas e ocorrências
-- Pedidos por status (Entregue, Em Trânsito, Expedido, Cancelado, Atrasado)
-- Distribuição por Marketplace (Mercado Livre, Shopee, Loja Própria)
-- Evolução de pedidos ao longo do tempo
+Criar visibilidade operacional sobre o fluxo completo de pedidos do e-commerce — desde a expedição até a entrega — permitindo identificar gargalos, auditar custos de frete e acompanhar SLA por transportadora.
+
+---
+
+## 📊 Páginas do Dashboard
+
+### 1. Visão Geral — Pedidos
+- Volume de pedidos por status (expedidos, em trânsito, entregues, devolvidos)
+- Acompanhamento de ocorrências impeditivas
+- Monitoramento de pedidos Marketplace e Ship From Store (SFS)
 
 ### 2. Logística & Frete
-- Custo total e médio de frete por transportadora
-- Frete cobrado vs. frete contratado por transportadora
-- Pedidos por tipo de entrega (Normal vs. Expressa)
-- Ranking de transportadoras por volume
+- Custo de frete por transportadora
+- Auditoria de valores cobrados vs. contratados
+- Ranking de transportadoras por volume e performance
 
-### 3. Status, SLA & Ocorrências
-- SLA de entrega e % de pedidos atrasados
-- Entregas no prazo vs. fora do prazo por transportadora
-- Ocorrências por tipo (Extravio, Atraso, Endereço incorreto)
-- Pedidos atrasados por transportadora
+### 3. SLA & Entregas
+- Taxa de entrega no prazo por transportadora e região
+- Tempo médio de entrega
+- Acompanhamento de devoluções — top de linha
 
 ---
 
-## 🎯 KPIs Monitorados
+## 🛠️ Stack
 
-| Métrica | Valor |
+| Ferramenta | Uso |
 |---|---|
-| Total de Pedidos | 230 |
-| Pedidos Entregues | 75 (32,61%) |
-| Pedidos em Andamento | 133 |
-| Pedidos com Ocorrência | 22 (9,57%) |
-| Custo Total de Frete | R$ 7,87 Mil |
-| Frete Médio por Pedido | R$ 34,20 |
-| SLA de Entrega | 32,00% |
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-- **Power BI** — Modelagem de dados, DAX, Power Query
-- **Figma** — Prototipagem e identidade visual
-- **Excel** — Tratamento e organização dos dados base
+| Power BI Desktop | Desenvolvimento dos dashboards |
+| DAX | Medidas calculadas e KPIs |
+| Power Query | ETL e tratamento de dados |
+| Excel Avançado | Fonte de dados e auditoria |
+| Figma | Prototipação do layout |
 
 ---
 
@@ -65,13 +53,26 @@ O projeto foi apresentado durante processo seletivo e resultou em contratação 
 
 | Arquivo | Descrição |
 |---|---|
-| `grendene.pbix` | Arquivo original do Power BI |
+| `grendene.pbix` | Arquivo Power BI — abrir com Power BI Desktop |
 | `grendene.pdf` | Preview do dashboard em PDF |
+
+> 💡 Para abrir o `.pbix` é necessário o [Power BI Desktop](https://powerbi.microsoft.com/pt-br/desktop/) (gratuito).
+
+---
+
+## 💡 Destaques Técnicos
+
+- **Modelagem de dados** com relacionamentos entre tabelas de pedidos, transportadoras e SLA
+- **DAX avançado** para cálculo de KPIs dinâmicos (taxa de entrega, custo médio, variação)
+- **Power Query** para tratamento e normalização dos dados brutos
+- **Design responsivo** otimizado para visualização em reuniões executivas
 
 ---
 
 ## 👩‍💻 Autora
 
-**Crislaine Gomes** — Analista de Dados & BI  
+**Crislaine Gomes** — Analista de Dados & BI | Assistente de Logística E-commerce — Grendene S/A
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/crislainegomesoliveira)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/crislaingomez-coder)
+[![Email](https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white)](mailto:crislaingomez@gmail.com)
